@@ -27,7 +27,7 @@ function DeleteOrder({ data, actions }) {
                 <button
                     type="button" 
                     className="deleteButton"
-                    onClick={confirmDelete()}
+                    onClick={() => { confirmDelete()}}
                 >
                     Trash it!
                 </button>
