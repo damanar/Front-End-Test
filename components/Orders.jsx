@@ -5,7 +5,7 @@ import OrdersTable from './OrdersTable';
 import OrderDetailsTable from './OrderDetailsTable';
 import DeleteOrder from './DeleteOrder';
 
-const formatDate = (dateString) => {
+{/*const formatDate = (dateString) => {
     const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
     const dateObj = new Date(dateString);
@@ -15,7 +15,7 @@ const formatDate = (dateString) => {
     const hours = dateObj.getHours();
     const minutes = dateObj.getMinutes();
     return `${month} ${day}, ${year} - ${hours}:${minutes}`;
-}
+}*/}
 
 export class Orders extends Component {
     static propTypes = {
